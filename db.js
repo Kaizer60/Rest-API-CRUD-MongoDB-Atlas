@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const dbUri = 'mongodb+srv://admin:1234@cluster0.p9acjwq.mongodb.net/employee_db?retryWrites=true&w=majority'
+const dbUri = 'mongodb+srv://<user>:<password>@cluster0.p9acjwq.mongodb.net/employee_db?retryWrites=true&w=majority'
 
 //mongoose.set('strictQuery', false)
 
